@@ -18,7 +18,7 @@ git commit -m 'deploy'
 
 # если вы публикуете по адресу https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-
+# push to gh-pages: git subtree push --prefix dist origin gh-pages
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:olexbondarenko/doctor.git master:gh-pages
 
