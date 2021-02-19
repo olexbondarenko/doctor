@@ -30,7 +30,7 @@
           Осталось в очереди:
         </div>
         <div class="game-sidebar__turn-count">
-          <strong>{{ userIndex + 1 }}</strong
+          <strong>{{ getUsers.length - userIndex }}</strong
           >/{{ getUsers.length }}
         </div>
       </div>
